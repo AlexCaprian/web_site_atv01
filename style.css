@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    padding: 22px 0;
+}
+
+.logo {
+    padding-top: 10px;
+    width: 65%;
+}
+
+.menu{
+    padding-top: 30px;
+    text-align: right;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.swiper{
+    width: 100%;
+    height: fit-content;
+
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper .swiper-button-next, .swiper .swiper-button-prev{
+    color: #052395;
+}
+
+.swiper .swiper-pagination-bullet-active{
+    background: #052395;
+}
