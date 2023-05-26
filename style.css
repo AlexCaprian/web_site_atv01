@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .center {
@@ -27,29 +27,11 @@ header{
 }
 
 .menu a{
-    color: rgb(0, 0, 0);
+    color: #052395;
     text-decoration: none;
+    font-size: 18px;
     font-weight: bold;
     margin-right: 15px;
-}
-
-.swiper{
-    width: 100%;
-    height: fit-content;
-
-}
-
-.swiper-slide img{
-    width: 100%;
-}
-
-
-.swiper .swiper-button-next, .swiper .swiper-button-prev{
-    color: #052395;
-}
-
-.swiper .swiper-pagination-bullet-active{
-    background: #052395;
 }
 
 .container_pag {
@@ -70,14 +52,12 @@ header{
 
 .slider{
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 100%;
     overflow: hidden;
 }
 
 .slides{
     width: 400%;
-    height: 400px;
     display: flex;
 }
 
@@ -92,19 +72,19 @@ header{
 }
 
 .slide img{
-    width: 800px;
+    width: 100%;
 }
 
 .manual-navegation{
     position: absolute;
-    width: 800px;
+    width: 95%;
     margin-top: -40px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn{
-    border: 2px solid white;
+    border: 2px solid #052395;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -116,7 +96,7 @@ header{
 }
 
 .manual-btn:hover{
-    background-color: white;
+    background-color: #052395;
 }
 
 #radio1:checked ~ .first{
@@ -160,21 +140,17 @@ header{
 }
 
 #radio1:checked ~ .navegation-auto .auto-btn1{
-    background-color: white;
+    background-color: #052395;
 }
 
 #radio1:checked ~ .navegation-auto .auto-btn2{
-    background-color: white;
+    background-color: #052395;
 }
 
 #radio1:checked ~ .navegation-auto .auto-btn3{
-    background-color: white;
+    background-color: #052395;
 }
 
 #radio1:checked ~ .navegation-auto .auto-btn4{
-    background-color: white;
-}
-
-#radio1:checked ~ .navegation-auto .auto-btn5{
-    background-color: white;
+    background-color: #052395;
 }
