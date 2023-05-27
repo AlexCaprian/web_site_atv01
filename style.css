@@ -7,13 +7,10 @@
 
 .center {
     display: flex;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 2%;
-}
-
-header{
-    padding: 22px 0;
+    background-color: #052395;
+    padding: 20px;
+    padding-left: 7%;
+    margin-bottom: 5px;
 }
 
 .logo {
@@ -27,7 +24,7 @@ header{
 }
 
 .menu a{
-    color: #052395;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -49,6 +46,8 @@ header{
 .itens_pag{
     margin: 20px;
 }
+
+/*slider de cima*/
 
 .slider{
     margin: 0 auto;
@@ -77,7 +76,7 @@ header{
 
 .manual-navegation{
     position: absolute;
-    width: 95%;
+    width: 100%;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -115,10 +114,6 @@ header{
     margin-left: -75%;
 }
 
-#radio5:checked ~ .first{
-    margin-left: -100%;
-}
-
 .navegation-auto div{
     border: 2px solid #20a6ff;
     padding: 5px;
@@ -153,4 +148,97 @@ header{
 
 #radio1:checked ~ .navegation-auto .auto-btn4{
     background-color: #052395;
+}
+
+/*Mensagem h3*/
+.msg-clt{
+    width: 100%;
+}
+
+.msg-clt h3{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/*slider dos clientes*/
+
+.cltslider{
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cltslides{
+    width: 400%;
+    display: flex;
+}
+
+.cltslides input{
+    display: none;
+}
+
+.cltslide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.cltslide img{
+    width: 100%;
+    height: 210px;
+}
+
+.cltmanual-navegation{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.cltmanual-btn{
+    border: 2px solid #052395;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.cltmanual-btn:not(:last-child){
+    margin-right: 15px;
+}
+
+.cltmanual-btn:hover{
+    background-color: #052395;
+}
+
+#cltradio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#cltradio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#cltradio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#cltradio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+#cltradio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+.copyright{
+    background-color: #052395;
+}
+
+.copyright p{
+    text-align: center;
+    font-size: 10px;
 }
