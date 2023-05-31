@@ -4,7 +4,7 @@ document.getElementById("cltradio1").checked = true;
 
 setInterval(  function(){
     nextImageclt();
-}, 3000)
+}, 4000)
 
 function nextImageclt(){
     count_clt++;
