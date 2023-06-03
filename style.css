@@ -5,29 +5,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.center {
-    display: flex;
+header {
     background-color: #052395;
-    padding: 20px;
-    padding-left: 7%;
-    margin-bottom: 5px;
+    padding: 16px;
+    display: flex;
+    box-shadow: 10px 5px 5px #79797975;
 }
-
 .logo {
-    padding-top: 10px;
-    width: 65%;
+    padding-left: 20px;
+    width: 18%;
 }
 
-.menu{
-    padding-top: 30px;
-    text-align: right;
+.menu {
+    padding-top: 18px;
+    padding-left: 55%;
 }
 
 .menu a{
-    color: white;
     text-decoration: none;
-    font-size: 18px;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
     margin-right: 15px;
 }
 
@@ -56,6 +54,7 @@
 }
 
 .slides{
+    margin-top: 6px;
     width: 400%;
     display: flex;
 }
@@ -234,6 +233,8 @@
     margin-left: -100%;
 }
 
+/*mensagem de copyright*/
+
 .copyright{
     background-color: #052395;
 }
@@ -242,17 +243,86 @@
     text-align: center;
     font-size: 10px;
 }
-
-.col2{
+/*style da pagina empresa*/
+.base-empresa{
     display: flex;
-    flex-flow: row wrap;
-
+    margin: 25px;
+    margin-left: 17%;
 }
 
-.col1 p{
+.text-empresa{
+    margin: 25px;
+    width: 40%;
+}
+
+.text-empresa p{
     color: black;
 }
 
-.col2 p{
+.text-empresa h3 {
+    margin-left: 15px;
+}
+
+.text-empresa ul{
+    margin-left: 30px;
+}
+
+/*style da pagina serviço*/
+.service-top {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-top p{
+    padding: 0px;
+    text-align: center;
     color: black;
 }
+
+.service{
+    width: 100%;
+    display: flex;
+}
+
+.service a {
+    text-decoration: none;
+}
+
+.service img {
+    align-items: left;
+}
+
+.itens_serv h3{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.itens_serv p{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+
+.itens_serv{
+    margin: 20px;
+}
+
+/*style da pagina contato*/
+
+.contato-center {
+    padding: 20px;
+    display: flex;
+    margin-left: 222px;
+}
+
+.info-contato {
+    margin-right: 100px;
+}
+
+.form-contato {
+    margin-top: 25px;
+}
+
+/*formulario*/
+

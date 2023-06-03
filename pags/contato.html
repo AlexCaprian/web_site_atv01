@@ -5,19 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/form_contato.css">
+    <link rel="icon" href="../assets/qualiserv_150px.png">
+    <title>Contrato | Qualiserv - Serviços Terceirizados</title>
 </head>
 <body>
     <header>
-        <div class="center">
-            <div class="logo"><img src="../assets/logo_267x60_branco.png"/></div><!--imagem-->
-            <div class="menu">
-                <a href="../index.html">Home</a>
-                <a href="empresa.html">Empresa</a>
-                <a href="servico.html">Serviços</a>
-                <a href="contato.html">Contato</a>
-            </div><!--menu-->
-        </div> <!--centro-->
-    </header>
+        <img src="../assets/logo_267x60_branco.png" alt="logo" class="logo">
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="empresa.html">Empresa</a>
+            <a href="servico.html">Serviços</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </header><!--Cabeçalho-->
+    <div class="contato-center">
+        <div class="info-contato">
+            <img src="../assets/info-contato.png" alt="info">
+        </div>
+        <div class="form-contato">
+            <form action="/pagina-processa-dados-do-form" method="post">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="usuario_nome" class="inputform" />
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="usuario_email" class="inputform" />
+                </div>
+                <div>
+                    <label for="nome">Telefone:</label>
+                    <input type="text" id="nome" name="usuario_nome" class="inputform" />
+                </div>
+                <div>
+                    <label for="email">Assunto:</label>
+                    <input type="email" id="email" name="usuario_email" class="inputform" />
+                </div>
+                <div>
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg" name="usuario_msg"></textarea>
+                </div>
+            
+                <div class="button">
+                    <button type="submit" class="buttonform">Enviar sua mensagem</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; Copyright 2023 - Serviço e Limpeza - Qualiserv - Todos os direitos reservados.</p>
+    </div>
 </body>
 </html>
