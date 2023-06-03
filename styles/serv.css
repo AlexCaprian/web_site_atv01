@@ -1,0 +1,33 @@
+.service-ind {
+    margin-top: 16px;
+    margin-left: 25px;
+    padding: 20px;
+    text-align: left;
+}
+
+.serv-container{
+    display: flex;
+}
+
+.img-serv-ind{
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+
+.img-serv-ind img {
+    width: 480px;
+}
+
+.p {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    text-align: justify
+}
+
+.ul{
+    margin-left: 50px;
+    margin-right: 40px;
+    color: black;
+    text-align: justify
+}
