@@ -242,3 +242,17 @@
     text-align: center;
     font-size: 10px;
 }
+
+.col2{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.col1 p{
+    color: black;
+}
+
+.col2 p{
+    color: black;
+}
