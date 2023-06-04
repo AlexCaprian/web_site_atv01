@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*cabeçalho*/
 header {
     background-color: #052395;
     padding: 16px;
@@ -29,6 +30,7 @@ header {
     margin-right: 15px;
 }
 
+/*container menu*/
 .container_pag {
     background-color: #052395;
     width: 100%;
